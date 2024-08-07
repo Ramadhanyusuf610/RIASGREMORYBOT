@@ -45,7 +45,7 @@ global.SESSION_ID =
   ""
 module.exports = {
   menu: process.env.MENU || "1",
-  HANDLERS: process.env.PREFIX || "'.','','+','@','#','!','?'",
+  HANDLERS: process.env.PREFIX || ".",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.3.1",
   caption: process.env.CAPTION || "𝗣𝗢𝗪𝗘𝗥𝗘𝗗 𝗕𝗬 𝗕𝗢𝗦𝗦𝗟𝗔𝗦𝗧",
